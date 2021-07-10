@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* navbar section */
+
+.form-control {
+    position: relative;
+    top: 0px;
+    height: 38px;
+}
+
+.btn {
+    margin-right: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(178, 238, 122, 0.411);
+}
+
+@media only screen and (max-width: 350px) {
+    /* navbar */
+    .navbar {
+        /* border: 2px solid red; */
+    }
+    .d-flex {
+        display: flex!important;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn-danger {
+        color: #fff;
+        background-color: #dc3545;
+        border-color: #dc3545;
+        width: 100%;
+        margin: 5px;
+    }
+    .mx-3 {
+        margin-right: 0rem!important;
+        margin-left: 0rem!important;
+    }
+    .me-2 {
+        margin-right: 0rem!important;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 576px) {
+    .navbar {
+        /* border: 2px solid black; */
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .navbar {
+        /* border: 2px solid pink; */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 982px) {
+    .navbar {
+        /* border: 2px solid green; */
+    }
+}
+
+@media (min-width: 982px) and (max-width: 1200px) {
+    .navbar {
+        /* border: 2px solid white; */
+    }
+}

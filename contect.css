@@ -1,0 +1,378 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_body {
+    background: #000;
+    font-family: 'Lato', sans-serif;
+}
+
+.head_area {
+    /* border: 2px solid red; */
+    padding-top: 5rem;
+}
+
+.container h2 {
+    color: #fff;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+hr {
+    color: #fff;
+}
+
+.para h5 {
+    color: #fff;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 68%;
+    /* border: 2px solid green; */
+    margin: auto;
+    margin-top: 4rem;
+    height: 37.5rem;
+}
+
+.container label {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.form-floating label {
+    color: #000;
+}
+
+textarea {
+    height: 6rem!important;
+}
+
+.btn-primary {
+    margin-top: 2rem;
+    margin-right: 0px!important;
+}
+
+.form input {
+    outline: none;
+    font-size: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.tytn {
+    display: flex;
+    justify-content: center;
+}
+
+.tytn .btn {
+    width: 100%;
+}
+
+.con {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.item {
+    display: flex;
+    justify-content: flex-start;
+    /* border: 2px solid red; */
+}
+
+.item img {
+    color: #fff;
+}
+
+.item p {
+    color: #fff;
+    text-align: left;
+}
+
+.fa {
+    color: #fff;
+}
+
+.fafa {
+    margin-right: 50px;
+}
+
+.icon {
+    display: flex;
+    /* border: 2px solid green; */
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.facon {
+    /* border: 2px solid green; */
+    padding: 10px;
+    margin: 10px;
+    font-size: 35px;
+}
+
+.facon a {
+    cursor: pointer;
+}
+
+.facon a:hover .fa {
+    color: cyan;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 350px) {
+    .container h2 {
+        color: #fff;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .h5,
+    h5 {
+        font-size: 0.8rem;
+    }
+    .main {
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-top: 2rem;
+        height: 44rem;
+    }
+    .container label {
+        font-size: 0.9rem;
+    }
+    .form-control {
+        height: 30px;
+    }
+    textarea {
+        height: 3rem!important;
+    }
+    .form-floating {
+        margin-bottom: 15px;
+    }
+    .mb-5 {
+        margin-bottom: 1rem!important;
+    }
+    .form-floating>.form-control,
+    .form-floating>.form-select {
+        height: calc(3.5rem + 2px);
+        padding: 0.3rem .3rem!important;
+    }
+    .btn {
+        margin-right: 0rem!important;
+    }
+    .con {
+        width: 64%;
+        margin: 25px auto;
+    }
+    .fafa {
+        margin-right: 5px;
+    }
+    hr {
+        margin: 0.5rem 0;
+    }
+    .facon {
+        padding: 9px;
+        margin: 1px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 576px) {
+    .container h2 {
+        color: #fff;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .h5,
+    h5 {
+        font-size: 0.8rem!important;
+    }
+    hr {
+        margin: 7px 0;
+    }
+    .main {
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-top: 2rem;
+        height: 44rem;
+    }
+    .container label {
+        font-size: 0.9rem;
+    }
+    .form-control {
+        height: 30px;
+    }
+    textarea {
+        height: 3rem!important;
+    }
+    .form-floating {
+        margin-bottom: 15px;
+    }
+    .mb-5 {
+        margin-bottom: 1rem!important;
+    }
+    .form-floating>.form-control,
+    .form-floating>.form-select {
+        height: calc(3.5rem + 2px);
+        padding: 0.3rem .3rem!important;
+    }
+    .btn {
+        margin-right: 0rem!important;
+    }
+    .con {
+        width: 64%;
+        margin: 25px auto;
+    }
+    .item {
+        display: flex;
+        justify-content: center;
+        /* border: 2px solid red; */
+    }
+    .fafa {
+        margin-right: 5px;
+    }
+    hr {
+        margin: 0.5rem 0;
+    }
+    .facon {
+        padding: 9px;
+        margin: 1px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .container h2 {
+        color: #fff;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .h5,
+    h5 {
+        font-size: 0.8rem!important;
+    }
+    hr {
+        margin: 7px 0;
+    }
+    .main {
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-top: 2rem;
+        height: 44rem;
+    }
+    .container label {
+        font-size: 0.9rem;
+    }
+    .form-control {
+        height: 30px;
+    }
+    textarea {
+        height: 3rem!important;
+    }
+    .form-floating {
+        margin-bottom: 15px;
+    }
+    .mb-5 {
+        margin-bottom: 1rem!important;
+    }
+    .form-floating>.form-control,
+    .form-floating>.form-select {
+        height: calc(3.5rem + 2px);
+        padding: 0.3rem .3rem!important;
+    }
+    .btn {
+        margin-right: 0rem!important;
+    }
+    .con {
+        width: 64%;
+        margin: 25px auto;
+    }
+    .item {
+        display: flex;
+        justify-content: center;
+        /* border: 2px solid red; */
+    }
+    .fafa {
+        margin-right: 5px;
+    }
+    hr {
+        margin: 0.5rem 0;
+    }
+    .facon {
+        padding: 9px;
+        margin: 1px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 982px) {
+    .container h2 {
+        color: #fff;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .h5,
+    h5 {
+        font-size: 0.8rem!important;
+    }
+    hr {
+        margin: 7px 0;
+    }
+    .main {
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-top: 2rem;
+        height: 44rem;
+    }
+    .container label {
+        font-size: 0.9rem;
+    }
+    .form-control {
+        height: 30px;
+    }
+    textarea {
+        height: 3rem!important;
+    }
+    .form-floating {
+        margin-bottom: 15px;
+    }
+    .mb-5 {
+        margin-bottom: 1rem!important;
+    }
+    .form-floating>.form-control,
+    .form-floating>.form-select {
+        height: calc(3.5rem + 2px);
+        padding: 0.3rem .3rem!important;
+    }
+    .btn {
+        margin-right: 0rem!important;
+    }
+    .con {
+        width: 64%;
+        margin: 25px auto;
+    }
+    .item {
+        display: flex;
+        justify-content: center;
+        /* border: 2px solid red; */
+    }
+    .fafa {
+        margin-right: 5px;
+    }
+    hr {
+        margin: 0.5rem 0;
+    }
+    .facon {
+        padding: 9px;
+        margin: 1px;
+        font-size: 20px;
+    }
+}

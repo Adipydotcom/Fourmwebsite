@@ -1,0 +1,294 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.carousel-item {
+    height: 50vh;
+}
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.7;
+}
+
+.carousel-item img {
+    height: 100vh;
+}
+
+.d-none {
+    display: block!important;
+}
+
+.carousel-caption {
+    bottom: 100px;
+}
+
+.carousel-caption h5 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+
+/* services part */
+
+.service-section {
+    background: #6c757d;
+    /* border: 2px solid red; */
+    padding-bottom: 1rem;
+}
+
+.servicescard {
+    height: 23rem;
+    margin: 5px 0px;
+}
+
+.service-section h2 {
+    padding-top: 20px;
+    /* border: 2px solid red; */
+}
+
+h5 .card-title a {
+    color: #000;
+    text-decoration: none;
+}
+
+.card-text {
+    height: 5rem;
+    /* border: 2px solid red; */
+}
+
+.butt {
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.servicesbtn {
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+
+/* footer section */
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.bi {
+    color: #000;
+    font-size: 30px;
+}
+
+.bi:hover {
+    color: green;
+}
+
+
+/* media quirey */
+
+@media only screen and (max-width: 350px) {
+    /* navbar */
+    .navbar {
+        /* border: 2px solid red; */
+    }
+    .d-flex {
+        display: flex!important;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn-danger {
+        color: #fff;
+        background-color: #dc3545;
+        border-color: #dc3545;
+        width: 100%;
+        margin: 5px;
+    }
+    .mx-3 {
+        margin-right: 0rem!important;
+        margin-left: 0rem!important;
+    }
+    .me-2 {
+        margin-right: 0rem!important;
+    }
+    /* service part */
+    .d-flex {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 1rem;
+    }
+    .servicescard {
+        width: 12rem!important;
+        height: 20rem;
+        margin: 5px 0px;
+    }
+    .card-text {
+        height: 6rem;
+    }
+    .row {
+        --bs-gutter-x: 0 rem;
+    }
+    #service_child {
+        display: flex;
+        justify-content: center;
+    }
+    .card-text {
+        height: 6rem;
+        font-size: 13px;
+    }
+    /* Carosal  */
+    .carousel-caption {
+        bottom: 5.25rem!important;
+    }
+    .carousel-item {
+        height: 50vh!important;
+    }
+    .carousel-caption h5 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .carousel-caption p {
+        letter-spacing: 1px;
+        font-size: 6px;
+        /* right: 59%; */
+        /* left: 10%; */
+    }
+    .social-media {
+        display: flex;
+        flex-direction: row!important;
+        justify-content: space-around !important;
+        width: 100%;
+        margin-bottom: 7px;
+    }
+    .copy_right {
+        background-color: rgba(0, 0, 0, 0.2);
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 576px) {
+    /* Carosal  */
+    .carousel-item {
+        height: 50vh!important;
+    }
+    .carousel-caption {
+        bottom: 5.25rem!important;
+    }
+    .carousel-caption h5 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .carousel-caption p {
+        letter-spacing: 1px;
+        font-size: 10px;
+        /* right: 59%; */
+        /* left: 10%; */
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .navbar {
+        /* border: 2px solid pink; */
+    }
+    /* Carosal  */
+    .d-none {
+        display: block!important;
+    }
+    .carousel-caption {
+        bottom: 23px;
+    }
+    .carousel-caption h5 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .carousel-caption p {
+        letter-spacing: 1px;
+        font-size: 15px;
+        /* right: 59%; */
+        /* left: 10%; */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 982px) {
+    .navbar {
+        /* border: 2px solid green; */
+    }
+    /* Carosal  */
+    .d-none {
+        display: block!important;
+    }
+    .carousel-caption {
+        bottom: 23px;
+    }
+    .carousel-caption h5 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .carousel-caption p {
+        letter-spacing: 1px;
+        font-size: 15px;
+        /* right: 59%; */
+        /* left: 10%; */
+    }
+    .row {
+        justify-content: center;
+    }
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 25.333% !important;
+    }
+    /* #service_child {
+        height: 23rem;
+    } */
+    .servicescard {
+        height: 21rem;
+        margin: 5px 0px;
+    }
+    .servicesbtn {
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+}
+
+@media (min-width: 982px) and (max-width: 1200px) {
+    .navbar {
+        /* border: 2px solid white; */
+    }
+    /* Carosal  */
+    .carousel-caption {
+        bottom: 25px;
+    }
+    .carousel-caption h5 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .carousel-caption p {
+        letter-spacing: 1px;
+        font-size: 15px;
+        /* right: 59%; */
+        /* left: 10%; */
+    }
+}
